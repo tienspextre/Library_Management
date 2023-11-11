@@ -211,18 +211,20 @@ public class Sys0201ServiceImpl implements Sys0201Service {
 	@Override
 	public void addBookCover(MultipartFile file, String bookCode) {
 		try {
-			Path root = Paths.get("src/main/resources/assets/images/book");
+			Path root = Paths.get("back/src/main/resources/assets/images/book");
 			String originalFileName = file.getOriginalFilename();
-			File directory = new File("src/main/resources/assets/images/book");
+			File directory = new File("back/src/main/resources/assets/images/book");
 			File[] filesInDirectory = directory.listFiles();
+			System.out.println(bookCode);
 			if (filesInDirectory != null) {
 				for (File file1 : filesInDirectory) {
+					System.out.println(file1.getName());
 					if (file1.getName().contains(bookCode)) {
 						System.out.println("Deleting");
 						file1.delete();
 					}
 				}
-			}
+			} else System.out.println("Nothing");
 			int dotIndex = originalFileName.lastIndexOf(".");
 			String fileExtension = originalFileName.substring(dotIndex, originalFileName.length());
 			String newFileName = bookCode + fileExtension;
