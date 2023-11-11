@@ -4,10 +4,6 @@ import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 public class CookieUtils {
 
     private static final int MAX_AGE = 8 * 3600;

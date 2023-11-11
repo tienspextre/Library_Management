@@ -8,7 +8,6 @@ import { HttpErrorInterceptor } from './_config/http-error.interceptor';
 import { ToastrModule } from 'ngx-toastr';
 import { AppComponent } from './app.component';
 import { ThankyouComponent } from './components/thankyou/thankyou.component';
-import { NgxSpinnerModule } from "ngx-spinner";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { UserInfoComponent } from './pages/user/user-info/user-info.component';
 import { ProductComponent } from './components/product/product.component';
@@ -63,7 +62,6 @@ import { CurrencySuffixPipe } from './_pipe/format_currency.pipe';
     NoopAnimationsModule,
     HttpClientModule,
     AppRoutingModule,
-    NgxSpinnerModule,
     ReactiveFormsModule,
     FormsModule,
     RouterModule,

@@ -11,10 +11,6 @@ import java.io.Serializable;
 import java.util.Date;
 import java.util.List;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 
 @Getter
 @Setter

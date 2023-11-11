@@ -10,10 +10,6 @@ import java.security.PublicKey;
 import java.security.spec.PKCS8EncodedKeySpec;
 import java.security.spec.X509EncodedKeySpec;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 public class RsaUtils {
 
     public static PublicKey getPublicKey() throws Exception {

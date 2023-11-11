@@ -7,7 +7,6 @@ import {HttpClient} from "@angular/common/http";
 import { environment } from 'environments/environment';
 import {NavigationExtras, Router} from "@angular/router";
 import {OrderService} from "./order.service";
-import {NgxSpinnerService} from "ngx-spinner";
 import {ToastrService} from "ngx-toastr";
 
 @Injectable({
@@ -39,7 +38,6 @@ export class CartService {
               private orderService: OrderService,
               private httpClient: HttpClient,
               private router: Router,
-              private spinner: NgxSpinnerService,
               private toast: ToastrService) {
 
     this.cartTotal$.next(this.cartDataServer.total);

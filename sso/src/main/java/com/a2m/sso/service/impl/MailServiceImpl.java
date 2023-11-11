@@ -56,15 +56,15 @@ public class MailServiceImpl implements MailService {
 			String link = "http://localhost:8097/auth/" + "newPassword" + "?redirectUri=" + redirectUri + "&verifyKey=" + verifyKey;
 //			String link = "http://localhost:8097/auth/" + "newPassword" + "?redirectUri=" + redirectUri;
 
-			helper.setTo("ngalee2002@gmail.com");
-//			helper.setTo(mailTo);
+//			helper.setTo("ngalee2002@gmail.com");
+			helper.setTo(mailTo);
 			helper.setSubject("Confirm your email");
 			String htmlContent = "<html>" + "<body>" + "Xin chào," + "<br><br>"
 			        + "<input type=\"hidden\" th:value=\"${redirectUri}\" id=\"redirectUriTh\">"
 			        + "<input type=\"hidden\" id=\"verifyKey\" value=\"" + verifyKey + "\">"
-					+ "Nhấp vào nút bên dưới kích hoạt tài khoản:" + "<br><br>" + "<a href=\""
+					+ "Nhấp vào nút bên dưới để đổi mật khẩu:" + "<br><br>" + "<a href=\""
 					+ link + "\">"
-					+ "<button id=\"nga\" style=\"background-color:blue; color:white; padding: 10px;\">Verify</button>" + "</a>"
+					+ "<button id=\"nga\" style=\"background-color:blue; color:white; padding: 10px;\">Đổi mật khẩu</button>" + "</a>"
 					+ "</body>" + "</html>";
 			helper.setText(htmlContent, true);
 			

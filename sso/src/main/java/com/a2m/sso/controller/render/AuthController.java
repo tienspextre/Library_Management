@@ -24,11 +24,6 @@ import com.a2m.sso.service.impl.UserServiceImpl;
 import com.a2m.sso.util.CookieUtils;
 import com.a2m.sso.util.JwtProvinderUtils;
 
-/**
- * Author tiennd
- * Created date 2023-07-09
- */
-
 @Controller
 @RequestMapping("auth")
 public class AuthController {

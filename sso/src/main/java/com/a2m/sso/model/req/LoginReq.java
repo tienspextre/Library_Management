@@ -7,10 +7,6 @@ import lombok.Setter;
 
 import javax.validation.constraints.NotEmpty;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 
 @Getter
 @Setter

@@ -10,10 +10,6 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 @ControllerAdvice
 public class A2mSsoExceptionHandling extends ResponseEntityExceptionHandler {
 

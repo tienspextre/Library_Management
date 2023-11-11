@@ -11,10 +11,6 @@ import com.a2m.sso.model.UserResponse;
 import com.a2m.sso.model.req.NewPassword;
 import com.a2m.sso.model.req.SignUpReq;
 
-/**
- * Author tiennd Created date 2023-07-08
- */
-
 @Mapper
 public interface UserDAO {
     @Cacheable("user")

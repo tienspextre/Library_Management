@@ -28,10 +28,6 @@ import com.a2m.sso.service.impl.UserServiceImpl;
 import com.a2m.sso.util.CookieUtils;
 import com.a2m.sso.util.JwtProvinderUtils;
 
-/**
- * Author tiennd Created date 2023-07-08
- */
-
 @RestController
 @RequestMapping("api/auth")
 public class AuthApiController {
@@ -55,16 +51,19 @@ public class AuthApiController {
 			String jwt = jwtProvinderUtils.generateJwtByPrivateKey(authentication);
 			CookieUtils.addCookie(response, SecurityConstants.ACCESS_TOKEN, jwt);
 			resp.setStatus(CommonConstants.RESULT_OK);
+			System.out.println("Login success");
 			resp.setResponseData(jwt);
 			resp.setMessage("Login success");
 
 		} catch (BadCredentialsException e) {
 			e.printStackTrace();
 			resp.setStatus(CommonConstants.RESULT_NG);
+			System.out.println("The username or password is wrong");
 			resp.setMessage("The username or password is wrong");
 		} catch (DisabledException e) {
 			e.printStackTrace();
 			resp.setStatus(CommonConstants.RESULT_NG);
+			System.out.println("Tài khoản chưa được xác thực");
 			resp.setMessage("Tài khoản chưa được xác thực");
 		}
 		return ResponseEntity.ok(resp);

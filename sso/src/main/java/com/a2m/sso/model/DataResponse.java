@@ -6,10 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
 @Getter
 @Setter
 @NoArgsConstructor

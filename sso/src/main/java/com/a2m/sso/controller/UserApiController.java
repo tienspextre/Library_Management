@@ -13,11 +13,6 @@ import com.a2m.sso.service.UserService;
 import javax.xml.crypto.Data;
 import java.util.List;
 
-/**
- * Author tiennd
- * Created date 2023-07-15
- */
-
 @RestController
 @RequestMapping("api/user")
 public class UserApiController {

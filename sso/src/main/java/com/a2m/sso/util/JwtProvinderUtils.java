@@ -16,11 +16,6 @@ import java.security.PrivateKey;
 import java.security.PublicKey;
 import java.util.*;
 
-/**
- * Author tiennd
- * Created date 2023-07-08
- */
-
 @Service
 public class JwtProvinderUtils {
 

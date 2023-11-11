@@ -218,6 +218,7 @@ public class Sys0201ServiceImpl implements Sys0201Service {
 			if (filesInDirectory != null) {
 				for (File file1 : filesInDirectory) {
 					if (file1.getName().contains(bookCode)) {
+						System.out.println("Deleting");
 						file1.delete();
 					}
 				}
@@ -241,9 +242,9 @@ public class Sys0201ServiceImpl implements Sys0201Service {
 		try {
 			Path imagePath = null;
 			if (fileName.equals("no-image.png"))
-				imagePath = Paths.get("src/main/resources/assets/images/no-image.png");
+				imagePath = Paths.get("back/src/main/resources/assets/images/no-image.png");
 			else
-				imagePath = Paths.get("src/main/resources/assets/images/book/" + fileName);
+				imagePath = Paths.get("back/src/main/resources/assets/images/book/" + fileName);
 			byte[] imageBytes = Files.readAllBytes(imagePath);
 			base64Image = Base64.getEncoder().encodeToString(imageBytes);
 			return base64Image;

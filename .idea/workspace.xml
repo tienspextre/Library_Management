@@ -4,7 +4,57 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d29f3e38-1f98-4920-86f8-e4c698819190" name="Changes" comment="" />
+    <list default="true" id="c4792e54-4f90-4e1c-a7ea-d5dfe9438322" name="Changes" comment="update application.properties">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/app/_service/services/cart.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/app/_service/services/cart.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/app/components/bookTitle/bookdetail/bookdetail.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/app/components/bookTitle/bookdetail/bookdetail.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/app/components/layouts/footer/footer.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/app/components/layouts/footer/footer.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/app/components/layouts/header/header.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/app/components/layouts/header/header.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/hotdeal.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/assets/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product04.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product06.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product07.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product08.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/product09.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/shop01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/shop02.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/assets/img/shop03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a2m-front/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/a2m-front/src/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/src/main/java/com/a2m/back/service/sys/impl/book/Sys0201ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/back/src/main/java/com/a2m/back/service/sys/impl/book/Sys0201ServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/a2m_sso.pptx" beforeDir="false" afterPath="$PROJECT_DIR$/doc/a2m_sso.pptx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/filter/CorsFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/filter/CorsFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/jwt/JwtAuthenticationEntryPoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/jwt/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/config/jwt/JwtAuthenticationFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/constant/CommonConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/constant/CommonConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/constant/SecurityConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/constant/SecurityConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/AuthApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/AuthApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/UserApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/UserApiController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/render/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/controller/render/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/dao/ComSeqDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/dao/ComSeqDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/dao/UserDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/dao/UserDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/DataResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/DataResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/UserResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/UserResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/exception/A2mSsoExceptionHandling.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/exception/A2mSsoExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/exception/exc/AuthenticateException.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/exception/exc/AuthenticateException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/req/LoginReq.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/model/req/LoginReq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/ComSeqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/ComSeqService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/CommonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/CommonService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/impl/MailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/service/impl/MailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/CookieUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/CookieUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/JwtProvinderUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/JwtProvinderUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/RsaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/java/com/a2m/sso/util/RsaUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sso/src/main/resources/com/a2m/mybatis/mapper/user/TsstUser.xml" beforeDir="false" afterPath="$PROJECT_DIR$/sso/src/main/resources/com/a2m/mybatis/mapper/user/TsstUser.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,29 +63,241 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="2Te0HHzgYDY2ts238EMiMtvjM0a" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;tienspextre&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="2622ee84-b049-43d0-aa83-9ef8fc6c5961" />
+        <option name="url" value="https://github.com/tienspextre/Library_Management.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2VT7tmbAuKDm3XF71G0s5422JoR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Admin/Desktop/CuoiKhoa/back"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/nctvi/Desktop/LTM/CaroOnline_SocketJava-master/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;0e4dd6bc6e472ab4d9a785d5e0dc8a6f&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.A2mBackApplication">
+    <configuration name="Tests (a2m-front)" type="JavaScriptTestRunnerKarma">
+      <config-file value="$PROJECT_DIR$/a2m-front/karma.conf.js" />
+      <karma-package-dir value="$PROJECT_DIR$/a2m-front/node_modules/@angular/cli" />
+      <working-directory value="$PROJECT_DIR$/a2m-front" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Angular Application (a2m-front)" type="JavascriptDebugType" uri="http://localhost:4200">
+      <method v="2" />
+    </configuration>
+    <configuration name="A2mBackApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="a2m-back" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.a2m.back.A2mBackApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="A2mSsoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="a2m-sso" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.a2m.sso.A2mSsoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.85" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.85" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <file path="$PROJECT_DIR$/back">
+          <settings>
+            <option name="CONTEXT_PATH" value="/back" />
+          </settings>
+        </file>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="3b3e1255-407d-42bd-8c88-1cd79ff5f3a5" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51823" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Angular CLI Server (a2m-front)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/a2m-front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d29f3e38-1f98-4920-86f8-e4c698819190" name="Changes" comment="" />
-      <created>1691388149596</created>
+      <changelist id="c4792e54-4f90-4e1c-a7ea-d5dfe9438322" name="Changes" comment="" />
+      <created>1694848432912</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1691388149596</updated>
+      <updated>1694848432912</updated>
+      <workItem from="1694848433944" duration="86000" />
+      <workItem from="1694848933385" duration="256000" />
+      <workItem from="1694849200279" duration="292000" />
+      <workItem from="1694849493945" duration="2062000" />
+      <workItem from="1694880084224" duration="1000" />
+      <workItem from="1695004165451" duration="54000" />
+      <workItem from="1695005224330" duration="26000" />
+      <workItem from="1695018123828" duration="600000" />
+      <workItem from="1695107588456" duration="2658000" />
+      <workItem from="1696044958150" duration="2166000" />
+      <workItem from="1696310622810" duration="303000" />
+      <workItem from="1696513756148" duration="1000" />
+      <workItem from="1696693822365" duration="5213000" />
+      <workItem from="1696821314608" duration="3364000" />
+      <workItem from="1696832712557" duration="600000" />
+      <workItem from="1698486974292" duration="449000" />
+      <workItem from="1698487432776" duration="87000" />
+      <workItem from="1698487528098" duration="463000" />
+      <workItem from="1698488005206" duration="488000" />
+      <workItem from="1698499494504" duration="1202000" />
+      <workItem from="1698653699317" duration="230000" />
+      <workItem from="1698998276556" duration="3466000" />
+      <workItem from="1699245170143" duration="66000" />
+      <workItem from="1699256126002" duration="1080000" />
+      <workItem from="1699430619529" duration="1802000" />
+      <workItem from="1699716083092" duration="5141000" />
     </task>
+    <task id="LOCAL-00001" summary="update application.properties">
+      <option name="closed" value="true" />
+      <created>1694849038077</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694849038077</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -47,5 +309,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update application.properties" />
+    <option name="LAST_COMMIT_MESSAGE" value="update application.properties" />
   </component>
 </project>
